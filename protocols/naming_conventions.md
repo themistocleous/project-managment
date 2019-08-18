@@ -28,3 +28,6 @@ Date_Experiment_Participant.extension
 
 ## Updates
 Created: Sat 8/17/2019
+
+## Copyright
+This document has been placed in the public domain.
