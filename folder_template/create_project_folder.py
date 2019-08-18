@@ -2,9 +2,11 @@
 Charalambos Themistocleous
 2019
 
+
 date_experiment_phase/
 |-- MRI/
 |   |-- MRI_Images
+|   |-- MRI_Transformed
 |   |-- Notes
 |
 |-- Sounds/
@@ -13,7 +15,8 @@ date_experiment_phase/
 |   |-- Notes
 |
 |-- Batteries
-|   |-- ScannedDocs/
+|   |-- ScannedDocsSession/
+|   |-- ScannedDocsQoL/
 |   |-- Database/
 |   |-- Texts/
 |
@@ -46,13 +49,16 @@ def main():
             f.close()
             os.mkdir(path + "/" + project_name + "/MRI/")
             os.mkdir(path + "/" + project_name + "/MRI/MRI_Images/")
+            os.mkdir(path + "/" + project_name + "/MRI/MRI_Transformed/")
             os.mkdir(path + "/" + project_name + "/MRI/Notes/")
             os.mkdir(path + "/" + project_name + "/Sounds/")
             os.mkdir(path + "/" + project_name + "/Sounds/Original/")
             os.mkdir(path + "/" + project_name + "/Sounds/Modified/")
             os.mkdir(path + "/" + project_name + "/Sounds/Notes/")
             os.mkdir(path + "/" + project_name + "/Batteries/")
-            os.mkdir(path + "/" + project_name + "/Batteries/ScannedDocs/")
+            os.mkdir(path + "/" + project_name +
+                     "/Batteries/ScannedDocsSession/")
+            os.mkdir(path + "/" + project_name + "/Batteries/ScannedDocsQoL/")
             os.mkdir(path + "/" + project_name + "/Batteries/Database/")
             os.mkdir(path + "/" + project_name + "/Batteries/Texts/")
             os.mkdir(path + "/" + project_name + "/SessionNotes/")

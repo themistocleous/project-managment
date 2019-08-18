@@ -15,6 +15,7 @@ Inside the folder of the participant, we have subfolders with the data of the ev
 date_experiment_phase/
 |-- MRI/
 |   |-- MRI_Images
+|   |-- MRI_Transformed
 |   |-- Notes
 |
 |-- Sounds/
@@ -23,7 +24,8 @@ date_experiment_phase/
 |   |-- Notes
 |
 |-- Batteries
-|   |-- ScannedDocs/
+|   |-- ScannedDocsSession/
+|   |-- ScannedDocsQoL/
 |   |-- Database/
 |   |-- Texts/
 |
@@ -34,9 +36,19 @@ date_experiment_phase/
 |-- README.md
 ```
 
-To create this structure, continue reading!
+# Contents of Project Folder
+- This is the folder template for the archive. Individuals projects, e.g., rsfMRI denoizing, normalization, statistical analyses, should take place outside this folder. However, the output of these project should be returned for archiving here.
 
-# Usage
+- Scanned Documents of the tests run during the session should be placed in ScannedDocs. 
+
+- Scanned Documents for Quality of Life filled by patients or relatives should be placed inside `ScannedDocsQoL`.  
+
+- Excel files and post-session scoring should be placed inside the `Database/` folder
+
+- SessioNotes/ProcessInfo: this folder contains information about the session from the clinician. For example what type of assessments were completed, if there are tests that were not conducted because the patient was tired, etc.  
+
+# Creating Folder Structure
+To create this structure, continue reading!
 ## The hard way
 To create this project structure put 'create_project_folder.py' in the directory you want to create the project and run:
 
