@@ -108,6 +108,8 @@ Now, you can run the script simply by typing in all directories that you have su
 
 > ctf
 
+## Endnote
+The guide is written in Markdown and I use pandoc to generate docx. 
 
 ## Updates
 Created: Sun 8/18/2019
