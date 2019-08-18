@@ -45,7 +45,7 @@ date_experiment_phase/
 
 - Excel files and post-session scoring should be placed inside the `Database/` folder
 
-- SessioNotes/ProcessInfo: this folder contains information about the session from the clinician. For example what type of assessments were completed, if there are tests that were not conducted because the patient was tired, etc.  
+- SessioNotes/ProcessInfo: this folder contains information about the session from the clinician. For example, notes about the type of assessments that were completed; if there are tests that were not conducted because the patient was tired, etc.
 
 # Creating Folder Structure
 To create this structure, continue reading!
@@ -72,7 +72,6 @@ Now, you can run the script simply by typing in all directories that you have su
 
 > ctf
 
-# Modify
-The folder structure depends on your needs, it is not a fixed structure, so make changes accordingly. 
 
-I would love to hear your comments and suggestions.
+## Updates
+Created: Sun 8/18/2019
