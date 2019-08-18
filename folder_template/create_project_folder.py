@@ -37,8 +37,9 @@ def main():
     now = str(datetime.datetime.now())
     print("The current working directory is %s" % path)
     # as the user to provide a name for the file.
-    project_name = input("Provide Experiment's Phase: ")
-    project_name = str(now[0:9]+"_"+project_name)
+    participants_code = input("\nProvide Participant's Code: ")
+    project_name = input("\nProvide Experiment's Phase: ")
+    project_name = str(now[0:9]+"_"+participants_code.upper()+"_"+project_name)
     answer = input(
         "A new project will be created in the %s proceed? (yes or no) " % path)
     if answer.lower() in ["yes", "y", "ok"]:

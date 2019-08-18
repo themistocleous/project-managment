@@ -7,7 +7,7 @@ The "folder_template" contains a template for creating a folder structure for th
 ___
 Participant's Code: 
 
-ABC
+_ABC
 
 Inside the folder of the participant, we have subfolders with the data of the evaluation/treatment. The hierarchy of the folder structure for a phase of the experiment is the following:
 
