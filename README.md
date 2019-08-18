@@ -1,10 +1,10 @@
-# Project Management
-This folder contains both code for automating tasks for project management and guidelines and good practices for project management.
+# Project Management and Automation
+This document contains guidelines and good practices for organizing the project materials. It also contains scripts for automating folder structure generation.
 
 # Project Folder Structure
-Each individual has its own repository in the server and a manilla folder with the papers we are using. The root folder is titled with the code name of the participant.
+Each individual has its own repository in the server and a manilla folder with the papers, we are using. The root folder should be titled with the code name of the participant.
 
-Inside this folder, there is the folder with the materials of the session. Each of these session folders should include the starting date of the session, the code of the participant, and the research timeline info as defined by the research protocol.
+Inside this folder, there should be the folder with the materials of the session. The name of each of these session-folders should include the starting date of the session, the code of the participant, and the research timeline info as defined by the research protocol.
 
 Here is an example of a fictional folder structure and how it will look like
 
@@ -70,7 +70,7 @@ date_experiment_phase/
 
 Note this is needed as we will be moving materials for analysis or merging. So, it does not matter if we know this information because of the folder structure, we will still need to have this specific naming convention to avoid ambiguities during the analysis.
 
-- **Batteries** Scanned Documents of the tests run during the session should be placed in ScannedDocs. 
+- **Batteries:** Scanned Documents of the tests run during the session should be placed in ScannedDocs. 
 
 - **ScannedDocsQoL:** Scanned Documents for Quality of Life filled by patients or relatives should be placed inside `ScannedDocsQoL`.  
 

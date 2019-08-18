@@ -1,7 +1,5 @@
 # File Naming Conventions
-This style guide evolves over time as additional conventions are identified and past conventions are rendered obsolete by changes in the language itself.
-
-Many researchers have their own coding style guidelines. In the event of any conflicts, such project-general guides take precedence for the project.
+Many researchers follow their onw naming style guidelines. In the event of conflicts, such project-general guides take precedence for the project, for consistency. 
 
 ## General
 1. ***Dates format:*** YYYY_MM_DD 2019_08_16 (zero padded dates).
@@ -21,10 +19,9 @@ Use underscores (file_name), dashes (file-name), no separation (filename), or ca
 3. When using CamelCase names, capitalize all letters of an abbreviation (e.g. HTTPServer)
 
 ## Naming Sounds, Batteries, and MRI materials
-08_16_2019_Pre_Phase1_ABN_XXXXX.wav
+Each sound should be labelled as using Date, Participant's Code, and Phase, e.g.,
 
-Date_Experiment_Participant.extension
-
+> 2019-08-1_HIJ_Phase1_Before.wav
 
 ## Updates
 Created: Sat 8/17/2019
